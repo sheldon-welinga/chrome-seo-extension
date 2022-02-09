@@ -14,7 +14,7 @@ const messageFromReactAppListener = (
 ) => {
   console.log(sender.url, '[content.js]. Message received', msg)
 
-  const headlines = Array.from(document.getElementsByTagName<'h2'>('h2')).map(
+  const headlines = Array.from(document.getElementsByTagName<'h1'>('h1')).map(
     (h1) => h1.innerText
   )
 
